@@ -195,7 +195,7 @@ body {
     align-items: center;
     padding: 6rem 2rem 2rem;
     position: relative;
-    background: url('../images/office-bg.jpg') center/cover no-repeat fixed;
+    background: url('office-bg.jpg') center/cover no-repeat fixed;
     background-attachment: fixed;
 }
 
@@ -524,7 +524,7 @@ section {
 }
 
 
-/* WORKFLOW SECTION - CARD MODERN */
+/* WORKFLOW SECTION */
 
 .workflow {
     background: linear-gradient(135deg, #0f0c29, #1a1a3e);

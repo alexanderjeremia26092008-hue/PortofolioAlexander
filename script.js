@@ -109,7 +109,7 @@ if (contactForm) {
         const name = document.getElementById('name').value;
         const email = document.getElementById('email').value;
         const message = document.getElementById('message').value;
-        window.location.href = `mailto:alexander.jeremia@smktelkom-bjb.sch.id?subject=Pesan dari ${encodeURIComponent(name)}&body=${encodeURIComponent(message)}%0A%0A---%0ADari: ${encodeURIComponent(email)}`;
+        window.location.href = `mailto:alexanderjeremia26092008@gmail.com?subject=Pesan dari ${encodeURIComponent(name)}&body=${encodeURIComponent(message)}%0A%0A---%0ADari: ${encodeURIComponent(email)}`;
         alert('Aplikasi email akan terbuka. Silakan kirim pesan Anda.');
         contactForm.reset();
     });
